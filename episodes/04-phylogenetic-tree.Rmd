@@ -1,5 +1,5 @@
 ---
-title: '04-phylogenetic-tree'
+title: 'Build a phylogenetic tree'
 teaching: 10
 exercises: 2
 ---
