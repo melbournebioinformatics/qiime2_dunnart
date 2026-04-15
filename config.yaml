@@ -66,12 +66,7 @@ contact: 'bioinformatics-training@unimelb.edu.au'
 # Order of episodes in your lesson
 episodes:
 - 01-background.Rmd
-#- 02-import.Rmd
-#- 03-taxonomy.Rmd
-#- 04-phylogenetic-tree.Rmd
-#- 05-visualisation.Rmd
-#- 06-exporting-data.Rmd
-#- 07-extra-info.Rmd
+
 
 # Information for Learners
 learners:
