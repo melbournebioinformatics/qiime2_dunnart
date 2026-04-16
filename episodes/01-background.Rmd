@@ -64,7 +64,7 @@ In order to use QIIME2 View to visualise your files, you will need to use a Goog
 
 :::
 
-As this workshop is being run on a remote Nectar Instance, you will need to [download the visual files (*.qzv) to your local computer](https://www.melbournebioinformatics.org.au/tutorials/tutorials/workshop_delivery_mode_info/workshops_nectar/#transferring-files-between-your-computer-and-nectar-instance) and view them in [QIIME2 View](https://view.qiime2.org) (q2view).
+As this workshop is being run on a remote Nectar Instance, you will need to [download the visual files (*.qzv) to your local computer](https://mbite.mdhs.unimelb.edu.au/nectar-instances/transferring-files-between-your-computer-and-nectar-instance.html) and view them in [QIIME2 View](https://view.qiime2.org) (q2view).
 
 
 ::: callout
@@ -76,35 +76,6 @@ We will be doing this step multiple times throughout this workshop to view visua
 <br>
 Alternatively, ***if you have QIIME2 installed and are running it on your own computer***, you can use `qiime tools view` to view the results from the command line (e.g. `qiime tools view filename.qzv`). `qiime tools view` opens a browser window with your visualization loaded in it. When you are done, you can close the browser window and press `ctrl-c` on the keyboard to terminate the command.
 
-
-## Initial Set up on Nectar
-
-### Byobu-screen
-
-To ensure that commands continue to run should you get disconnected from your Nectar Instance, we'll [run a byobu-screen session](https://www.melbournebioinformatics.org.au/tutorials/tutorials/workshop_delivery_mode_info/workshops_nectar/#byobu-screen).
-
-
-#### Starting a byobu-screen session
-On Nectar, to start a `byobu-screen` session called `workshop`, type  
-
-```bash
-byobu-screen -S workshop
-```
-
-#### Reconnecting to a byobu-screen session
-If you get disconnected from your Nectar Instance, follow the instructions [here](https://www.melbournebioinformatics.org.au/tutorials/tutorials/workshop_delivery_mode_info/workshops_nectar/#reconnecting-to-a-byobu-screen-session) to resume your session.
-
-
-### Symbolic links to workshop data
-Data for this workshop is stored in a central location (`/mnt/shared_data/`) on the Nectar file system that we will be using. We will use symbolic links (`ln -s`) to point to it. Symbolic links (or symlinks) are just "virtual" files or folders (they only take up a very little space) that point to a physical file or folder located elsewhere in the file system. Sequencing data can be large, and rather than unnecessarily having multiple copies of the data which can quickly take up a lot of space, we will simply point to the files needed in the `shared_data` folder.
-
-
-```bash
-cd
-ln -s /mnt/shared_data/raw_data raw_data
-ln -s /mnt/shared_data/dunnart_metadata.tsv dunnart_metadata.tsv
-ln -s /mnt/shared_data/silva_138.2_16s_v4_classifier.qza silva_138.2_16s_v4_classifier.qza
-```
 
 
 ::::::::::::::::::::::::::::::::::::: keypoints 

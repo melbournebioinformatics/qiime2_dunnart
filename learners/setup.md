@@ -38,8 +38,7 @@ Click <a href="../*.pdf" type="application/pdf" target="_blank">here</a> for a p
 
 ## Data
 
-Data from the Walter and Eliza Hall Institute (WEHI) came as paired-end, demultiplexed (.fastq) files with primers and overhang sequences still attached still attached. Raw files are stored on Mediaflux and were transfered directly to my Melbourne Research Cloud (MRC) instance. File names were adjusted and gzipped to satisfy QIIME2 requirments (+_+_+_L(0-9)(0-9)(0-9)_R(1-2)_001.fastq.gz). 
-
+Data from the Walter and Eliza Hall Institute (WEHI) came as paired-end, demultiplexed (.fastq) files with primers and overhang sequences still attached. 
 Samples were sequenced on a single NextSeq run.
 
 ### Downloading data
@@ -65,7 +64,7 @@ This workshop is designed for participants with command-line knowledge. You will
 
 For an in-person workshop, you will need access to Nectar instances.
 Login information will be provided to you prior to the workshop start date.
-You can find more information about Nectar instances [here](https://mbite.mdhs.unimelb.edu.au/nectar-instances/).
+You can find more information about Nectar instances [here](https://mbite.mdhs.unimelb.edu.au/nectar-instances/logging-on-to-a-nectar-instance.html).
 
 You will need to use a Google Chrome or Mozilla Firefox web browser to view files in QIIME2 View.
 
@@ -96,20 +95,35 @@ Use Terminal
 
 :::::::::::::::::::::::::
 
-### Before the start of the session:
 
-*Whenever you log in*
-Start byobu window manager <byobu -S qiime2>. If you get booted off the session, you can get back on with <byobu -S qiime2 attach-session -t 1>.
-  
-```
-# Things to do when terminal is opened up, at the start of each session
-byobu -S qiime2
-conda activate qiime2-amplicon-2026.1
+## Initial Set up on Nectar
 
-#need to make a directory for temporary files in the volume storage
-rm -r ~/data/tmp
-mkdir ~/data/tmp
-export TMPDIR=~/data/tmp
-echo $TMPDIR #should print ~/data/tmp
+### Byobu-screen
+
+To ensure that commands continue to run should you get disconnected from your Nectar Instance, we'll [run a byobu-screen session](https://www.melbournebioinformatics.org.au/tutorials/tutorials/workshop_delivery_mode_info/workshops_nectar/#byobu-screen).
+
+
+#### Starting a byobu-screen session
+On Nectar, to start a `byobu-screen` session called `workshop`, type  
+
+```bash
+byobu-screen -S workshop
 ```
+
+#### Reconnecting to a byobu-screen session
+If you get disconnected from your Nectar Instance, follow the instructions [here](https://www.melbournebioinformatics.org.au/tutorials/tutorials/workshop_delivery_mode_info/workshops_nectar/#reconnecting-to-a-byobu-screen-session) to resume your session.
+
+
+### Symbolic links to workshop data
+Data for this workshop is stored in a central location (`/mnt/shared_data/`) on the Nectar file system that we will be using. We will use symbolic links (`ln -s`) to point to it. Symbolic links (or symlinks) are just "virtual" files or folders (they only take up a very little space) that point to a physical file or folder located elsewhere in the file system. Sequencing data can be large, and rather than unnecessarily having multiple copies of the data which can quickly take up a lot of space, we will simply point to the files needed in the `shared_data` folder.
+
+
+```bash
+cd
+ln -s /mnt/shared_data/raw_data raw_data
+ln -s /mnt/shared_data/dunnart_metadata.tsv dunnart_metadata.tsv
+ln -s /mnt/shared_data/silva_138.2_16s_v4_classifier.qza silva_138.2_16s_v4_classifier.qza
+```
+
+
 

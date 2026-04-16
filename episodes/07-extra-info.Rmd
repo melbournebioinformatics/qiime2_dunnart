@@ -64,8 +64,7 @@ qiime feature-classifier fit-classifier-naive-bayes \
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
 - Training a classifier requires region‑matched reference reads and taxonomy; forward/reverse primers must be provided when extracting reads.
-- For production datasets, perform standalone cutadapt with --nextseq‑trim prior to import to remove sequencing artefacts from NextSeq runs.
-- Classifier training and full classify‑sklearn runs can be computationally demanding — consider precomputed classifiers or higher memory/CPU resources for large datasets.
+- Classifier training and full classify‑sklearn runs can be computationally demanding — Consider precomputed classifiers or higher memory/CPU resources for large datasets.
 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::

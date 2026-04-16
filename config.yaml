@@ -10,8 +10,8 @@
 # incubator: The Carpentries Incubator
 # Note that you can also use a custom carpentry type. For more info,
 # see the documentation: https://carpentries.github.io/sandpaper-docs/editing.html
-carpentry: 'uom'
-#carpentry: 'swc'
+#carpentry: 'uom'
+carpentry: 'swc'
 
 # Custom carpentry description
 # This will be used as the alt text for the logo
@@ -89,5 +89,5 @@ profiles:
 # sandpaper and varnish versions) should live
 
 
-varnish: melbournebioinformatics/uom-varnish@main
-url: melbournebioinformatics.github.io/uom-varnish
+#varnish: melbournebioinformatics/uom-varnish@main
+#url: melbournebioinformatics.github.io/uom-varnish
