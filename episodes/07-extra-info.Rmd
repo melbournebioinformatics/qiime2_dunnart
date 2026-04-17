@@ -23,7 +23,7 @@ exercises: 2
 ## Extra Information
 
 
-::: warning
+::: caution
 
 #### STOP
 
