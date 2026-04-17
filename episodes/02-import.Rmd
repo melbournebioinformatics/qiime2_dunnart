@@ -106,7 +106,7 @@ The primers specified are the Earth Microbiome Project (EMP) 16S V4 primers (515
     
 ::: discussion
 
-The error rate, `#!python --p-error-rate`, and overlap, `#!python --p-overlap`, parameters will likely need to be adjusted for your own sample data to maximise the proportion of reads successfully trimmed while avoiding nonspecific matches. Play around with these values and see what happens.
+The error rate, `--p-error-rate`, and overlap, `--p-overlap`, parameters will likely need to be adjusted for your own sample data to maximise the proportion of reads successfully trimmed while avoiding nonspecific matches. Play around with these values and see what happens.
 
 :::
 
@@ -158,7 +158,7 @@ Copy `analysis/visualisations/trimmed_sequences.qzv` to your local computer and 
 Make sure to switch between the "Overview" and "Interactive Quality Plot" tabs in the top left hand corner. Click and drag on the plot to zoom in. Double click to zoom back out to full size. Hover over a box to see the parametric seven-number summary of the quality scores at the corresponding position.
 
 
-![OverviewQualPlotTabs](./media/q2view_OverviewQualPlotTabs.png)
+![OverviewQualPlotTabs](./files/q2view_OverviewQualPlotTabs.png)
 
 :::::::::::::::::::::::::
 :::::::::::::::::::::::::::::::::::::::::::::::
@@ -276,7 +276,7 @@ Copy `analysis/visualisations/summary_table/summary.qzv` to your local computer 
 
 
 Make sure to switch between the "Overview" and "Feature Detail" tabs in the top left hand corner.  
-    ![ASV_detailPNG](./media/q2view_ASV_detail.png)
+    ![ASV_detailPNG](./files/q2view_ASV_detail.png)
 
 
 :::::::::::::::::::::::::

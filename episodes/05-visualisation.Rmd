@@ -50,7 +50,7 @@ Copy `analysis/visualisations/barchart.qzv` to your local computer and view in Q
 
 Increase the "Bar Width", select "Captivity" in "Sort Samples By" drop-down menu and explore the resulting barplots by changing the levels in the "Change Taxonomic Level" dropdown menu (Select Level 1, then Level 3, and then Level 5 for example).  
 
-![barplot1](./media/q2view_barplot_levels.png)
+![barplot1](./files/q2view_barplot_levels.png)
 
 
 :::::::::::::::::::::::::
@@ -106,7 +106,7 @@ Copy `analysis/visualisations/16s_alpha_rarefaction.qzv` to your local computer 
 
 Select "Animal" in the "Sample Metadata Column" and "observed_features" under "Metric":
 
-![rarefaction](./media/q2view_rarefaction.png)
+![rarefaction](./files/q2view_rarefaction.png)
 
 :::::::::::::::::::::::::
 :::::::::::::::::::::::::::::::::::::::::::::::
@@ -160,7 +160,7 @@ To view the differences between sample composition using unweighted UniFrac in o
 
 On q2view, select the "Color" tab, choose "Captivity" under the "Select a Color Category" dropdown menu.  
 
-![unweighted_unifrac_emperor2](./media/q2view_unweighted_unifrac_emperor2.png)
+![unweighted_unifrac_emperor2](./files/q2view_unweighted_unifrac_emperor2.png)
 
 :::::::::::::::::::::::::
 :::::::::::::::::::::::::::::::::::::::::::::::
@@ -190,7 +190,7 @@ Copy `analysis/visualisations/observed_features-significance.qzv` to your local 
 
 Select "Captivity" under the "Column" dropdown menu.  
 
-![faith](./media/q2view_observed_features.png)
+![faith](./files/q2view_observed_features.png)
 
 :::::::::::::::::::::::::
 :::::::::::::::::::::::::::::::::::::::::::::::
@@ -218,7 +218,7 @@ Copy `analysis/visualisations/evenness-group-significance.qzv` to your local com
 
 Select "Captivity" under the "Column" dropdown menu.
 
-![evenness](./media/q2view_evenness.png)
+![evenness](./files/q2view_evenness.png)
 
 
 :::::::::::::::::::::::::
@@ -248,7 +248,7 @@ Copy `analysis/visualisations/unweighted-unifrac-captivity-significance.qzv` to 
 
 [Click to view the **`unweighted-unifrac-captivity-significance.qzv`** file in QIIME 2 View](https://view.qiime2.org/visualization/?type=html&src=https%3A%2F%2Fdl.dropboxusercontent.com%2Fscl%2Ffi%2Fo8jzhit0mgs2w13i5mzno%2Funweighted-unifrac-gender-significance.qzv%3Frlkey%3Di4pddpyo9cosz7tg2dk8nr2zr%26dl%3D1).
 
-![provenance](./media/q2view_provenance.png)
+![provenance](./files/q2view_provenance.png)
 
 :::::::::::::::::::::::::
 :::::::::::::::::::::::::::::::::::::::::::::::
