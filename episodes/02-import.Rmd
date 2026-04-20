@@ -286,10 +286,10 @@ Copy `analysis/visualisations/16s_denoising_stats.qzv` to your local computer an
 
 <br>
 ```bash
-qiime feature-table summarize \ 
---i-table analysis/dada2out/table.qza \ 
---m-metadata-file dunnart_metadata.tsv \ 
---output-dir analysis/visualisations/summary_table \ 
+qiime feature-table summarize \
+--i-table analysis/dada2out/table.qza \
+--m-metadata-file dunnart_metadata.tsv \
+--output-dir analysis/visualisations/summary_table \
 --verbose 
 ```
 
