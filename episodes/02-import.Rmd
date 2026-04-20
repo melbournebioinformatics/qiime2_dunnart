@@ -229,6 +229,9 @@ to:
 --p-trunc-len-r 170 \ 
 ```
 
+
+*Tip: Use the up arrow to go back if you tried to run the command before. You can use your arrow keys to edit the command before re-running to replace `xxx` with the numerical values.*
+
 :::::::::::::::::::::::::
 :::::::::::::::::::::::::::::::::::::::::::::::
 

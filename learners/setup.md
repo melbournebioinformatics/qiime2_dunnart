@@ -29,8 +29,7 @@ At the end of this introductory workshop, you will:
 
 
 ## Slides and workshop instructions
-Click <a href="../media/*.pdf" type="application/pdf" target="_blank">here</a> for slides presented during this workshop.
-Click <a href="../*.pdf" type="application/pdf" target="_blank">here</a> for a printer friendly PDF version of this workshop.
+Click <a href="./files/QIIME2_workshop_MelbBioinformatics_April2026.pdf" type="application/pdf" target="_blank">here</a> for slides presented during this workshop.
 
 
 
