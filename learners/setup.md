@@ -117,6 +117,7 @@ Data for this workshop is stored in a central location (`/mnt/shared_data/`) on 
 
 
 ```bash
+cd
 mkdir raw_data; cp -rs /mnt/shared_data/raw_data/* raw_data 
 ln -s /mnt/shared_data/dunnart_metadata.tsv dunnart_metadata.tsv
 ln -s /mnt/shared_data/silva_138.2_16s_v4_classifier.qza silva_138.2_16s_v4_classifier.qza
