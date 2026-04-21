@@ -42,7 +42,7 @@ To check the input syntax for any QIIME2 command, enter the command, followed by
 
 ::: caution
 
-If you haven't already done so, make sure you are running the workshop in [byobu-screen](./index.html#initial-set-up-on-nectar) and have created the symbolic links to the [workshop data]((./index.html#symbolic-links-to-workshop-data)).
+If you haven't already done so, make sure you are running the workshop in [byobu-screen](./index.html#initial-set-up-on-nectar) and have created the symbolic links to the [workshop data](./index.html#symbolic-links-to-workshop-data).
 
 :::
 
