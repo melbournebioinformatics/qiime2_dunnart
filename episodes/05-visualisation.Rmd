@@ -46,7 +46,7 @@ Copy `analysis/visualisations/barchart.qzv` to your local computer and view in Q
 
 :::::::::::::::: solution
 
-[Click to view the **`barchart.qzv`** file in QIIME 2 View](https://view.qiime2.org/visualization/?type=html&src=https%3A%2F%2Fdl.dropboxusercontent.com%2Fscl%2Ffi%2F0r73637tkg60wjbf5s07a%2Fbarchart.qzv%3Frlkey%3Djlx2ctcs9n5rszkun7bgaint1%26dl%3D1).
+[Click to view the **`barchart.qzv`** file in QIIME 2 View](https://view.qiime2.org/visualization/?src=https://www.dropbox.com/scl/fo/romu76hw5alep6qj4xfws/APrHWMBRZRFHT5GCxr_2NR0/barchart.qzv?rlkey=z0rtnozon2hlic4ba6i30c301).
 
 Increase the "Bar Width", select "Captivity" in "Sort Samples By" drop-down menu and explore the resulting barplots by changing the levels in the "Change Taxonomic Level" dropdown menu (Select Level 1, then Level 3, and then Level 5 for example).  
 
@@ -102,7 +102,7 @@ Copy `analysis/visualisations/16s_alpha_rarefaction.qzv` to your local computer 
 
 :::::::::::::::: solution
 
-[Click to view the **`16s_alpha_rarefaction.qzv`** file in QIIME 2 View](https://view.qiime2.org/visualization/?type=html&src=https%3A%2F%2Fdl.dropboxusercontent.com%2Fscl%2Ffi%2Fa9tqrizdol82j4f2em7ll%2F16s_alpha_rarefaction.qzv%3Frlkey%3Dilcp14psote78zp7rbjrdlz26%26dl%3D1).
+[Click to view the **`16s_alpha_rarefaction.qzv`** file in QIIME 2 View](https://view.qiime2.org/visualization/?src=https://www.dropbox.com/scl/fo/romu76hw5alep6qj4xfws/APhv6-MkB307twQ0bCWkrkY/16s_alpha_rarefaction.qzv?rlkey=z0rtnozon2hlic4ba6i30c301).
 
 Select "Animal" in the "Sample Metadata Column" and "observed_features" under "Metric":
 
@@ -155,7 +155,7 @@ To view the differences between sample composition using unweighted UniFrac in o
 
 :::::::::::::::: solution
 
-[Click to view the **`unweighted_unifrac_emperor.qzv`** file in QIIME 2 View](https://view.qiime2.org/visualization/?type=html&src=https%3A%2F%2Fdl.dropboxusercontent.com%2Fscl%2Ffi%2Fpsqxp4hfgvrzpeta687lk%2Funweighted_unifrac_emperor.qzv%3Frlkey%3Dujflsjcjx5qjl2z9vc61072pi%26dl%3D1).  
+[Click to view the **`unweighted_unifrac_emperor.qzv`** file in QIIME 2 View](https://view.qiime2.org/visualization/?src=https://www.dropbox.com/scl/fo/romu76hw5alep6qj4xfws/ANRMHJr8pw58adbJ2yv4i38/unweighted_unifrac_emperor.qzv?rlkey=z0rtnozon2hlic4ba6i30c301).  
 
 
 On q2view, select the "Color" tab, choose "Captivity" under the "Select a Color Category" dropdown menu.  
@@ -186,7 +186,7 @@ Copy `analysis/visualisations/observed_features-significance.qzv` to your local 
 
 :::::::::::::::: solution
 
-[Click to view the **`observed_features-significance.qzv`** file in QIIME 2 View](https://view.qiime2.org/visualization/?type=html&src=https%3A%2F%2Fdl.dropboxusercontent.com%2Fscl%2Ffi%2Ftn3r31tk3s04pv19cb0ig%2Fobserved_features-significance.qzv%3Frlkey%3D0qmb7fezh6am8drib39qn629h%26dl%3D1).  
+[Click to view the **`observed_features-significance.qzv`** file in QIIME 2 View](https://view.qiime2.org/visualization/?src=https://www.dropbox.com/scl/fo/romu76hw5alep6qj4xfws/AMje09kxzAz65VKNBORJoAI/observed_features-significance.qzv?rlkey=z0rtnozon2hlic4ba6i30c301).  
 
 Select "Captivity" under the "Column" dropdown menu.  
 
@@ -214,7 +214,7 @@ Copy `analysis/visualisations/evenness-group-significance.qzv` to your local com
 
 :::::::::::::::: solution
 
-[Click to view the **`evenness-group-significance.qzv`** file in QIIME 2 View](https://view.qiime2.org/visualization/?type=html&src=https%3A%2F%2Fdl.dropboxusercontent.com%2Fscl%2Ffi%2Foi8wbq9x4uztgkjv422gd%2Fevenness-group-significance.qzv%3Frlkey%3Dlvmydv7kkuotbtz2cilztyss7%26dl%3D1).  
+[Click to view the **`evenness-group-significance.qzv`** file in QIIME 2 View](https://view.qiime2.org/visualization/?src=https://www.dropbox.com/scl/fo/romu76hw5alep6qj4xfws/ALNMCSgm30C2zhm7sHNSA5s/evenness-group-significance.qzv?rlkey=z0rtnozon2hlic4ba6i30c301).  
 
 Select "Captivity" under the "Column" dropdown menu.
 
@@ -246,7 +246,7 @@ Copy `analysis/visualisations/unweighted-unifrac-captivity-significance.qzv` to 
 
 :::::::::::::::: solution
 
-[Click to view the **`unweighted-unifrac-captivity-significance.qzv`** file in QIIME 2 View](https://view.qiime2.org/visualization/?type=html&src=https%3A%2F%2Fdl.dropboxusercontent.com%2Fscl%2Ffi%2Fo8jzhit0mgs2w13i5mzno%2Funweighted-unifrac-gender-significance.qzv%3Frlkey%3Di4pddpyo9cosz7tg2dk8nr2zr%26dl%3D1).
+[Click to view the **`unweighted-unifrac-captivity-significance.qzv`** file in QIIME 2 View](https://view.qiime2.org/visualization/?src=https://www.dropbox.com/scl/fo/romu76hw5alep6qj4xfws/ALN4XydwBZnK-0qP0xoUmJg/unweighted-unifrac-captivity-significance.qzv?rlkey=z0rtnozon2hlic4ba6i30c301).
 
 ![provenance](./files/q2view_provenance.png)
 
@@ -282,7 +282,7 @@ Copy `analysis/visualisations/ancombc2-barplot.qzv` to your local computer and v
 
 :::::::::::::::: solution
 
-[Click to view the **`ancombc2-barplot.qzv`** file in QIIME 2 View](Needs link).
+[Click to view the **`ancombc2-barplot.qzv`** file in QIIME 2 View](https://view.qiime2.org/visualization/?src=https://www.dropbox.com/scl/fo/romu76hw5alep6qj4xfws/ALlpMHvkL69hNlowYAk5I7Y/ancombc2-barplot.qzv?rlkey=z0rtnozon2hlic4ba6i30c301).
 
 :::::::::::::::::::::::::
 :::::::::::::::::::::::::::::::::::::::::::::::

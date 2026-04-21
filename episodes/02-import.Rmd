@@ -42,7 +42,7 @@ To check the input syntax for any QIIME2 command, enter the command, followed by
 
 ::: caution
 
-If you haven't already done so, make sure you are running the workshop in [byobu-screen](./index.html#initial-set-up-on-nectar) and have created the symbolic links to the [workshop data]((./index.html#symbolic-links-to-workshop-data)).
+If you haven't already done so, make sure you are running the workshop in [byobu-screen](./index.html#initial-set-up-on-nectar) and have created the symbolic links to the [workshop data](./index.html#symbolic-links-to-workshop-data).
 
 :::
 
@@ -153,7 +153,7 @@ Copy `analysis/visualisations/trimmed_sequences.qzv` to your local computer and 
 
 :::::::::::::::: solution
 
-[Click to view the **`trimmed_sequences.qzv`** file in QIIME 2 View](https://view.qiime2.org/visualization/?type=html&src=https%3A%2F%2Fdl.dropboxusercontent.com%2Fscl%2Ffi%2Fm484d0ukdn9n7a2gdw7hh%2Ftrimmed_sequences.qzv%3Frlkey%3Dta8bbyyuz6ucpyn4jymx78bp2%26dl%3D1).
+[Click to view the **`trimmed_sequences.qzv`** file in QIIME 2 View](https://view.qiime2.org/visualization/?src=https://www.dropbox.com/scl/fo/romu76hw5alep6qj4xfws/AAF9YHZ2oAZQ48Kl-k1Jvyo/trimmed_sequences.qzv?rlkey=z0rtnozon2hlic4ba6i30c301).
 
 Make sure to switch between the "Overview" and "Interactive Quality Plot" tabs in the top left hand corner. Click and drag on the plot to zoom in. Double click to zoom back out to full size. Hover over a box to see the parametric seven-number summary of the quality scores at the corresponding position.
 
@@ -216,12 +216,21 @@ For this amplicon, the expected length is ~255 bp. Try a few sensible truncation
 
 :::::::::::::::: solution
 
-``` bash
+Change this part of the command from:
 
+``` bash
+--p-trunc-len-f xxx \
+--p-trunc-len-r xxx \
+```
+to:
+
+``` bash
 --p-trunc-len-f 210 \ 
 --p-trunc-len-r 170 \ 
-
 ```
+
+
+*Tip: Use the up arrow to go back if you tried to run the command before. You can use your arrow keys to edit the command before re-running to replace `xxx` with the numerical values.*
 
 :::::::::::::::::::::::::
 :::::::::::::::::::::::::::::::::::::::::::::::
@@ -269,7 +278,7 @@ Copy `analysis/visualisations/16s_denoising_stats.qzv` to your local computer an
 
 :::::::::::::::: solution
 
-[Click to view the **`16s_denoising_stats.qzv`** file in QIIME 2 View](https://view.qiime2.org/visualization/?type=html&src=https%3A%2F%2Fdl.dropboxusercontent.com%2Fscl%2Ffi%2Fhwpyu01wm0ubb82wbb1dt%2F16s_denoising_stats.qzv%3Frlkey%3Dkuc0zfuozlpzr0c49sxhr96m7%26dl%3D1).
+[Click to view the **`16s_denoising_stats.qzv`** file in QIIME 2 View](https://view.qiime2.org/visualization/?src=https://www.dropbox.com/scl/fo/romu76hw5alep6qj4xfws/AAsCKOqmM-t2RhSr39K7E_g/16s_denoising_stats.qzv?rlkey=z0rtnozon2hlic4ba6i30c301).
 
 :::::::::::::::::::::::::
 :::::::::::::::::::::::::::::::::::::::::::::::
@@ -277,10 +286,10 @@ Copy `analysis/visualisations/16s_denoising_stats.qzv` to your local computer an
 
 <br>
 ```bash
-qiime feature-table summarize \ 
---i-table analysis/dada2out/table.qza \ 
---m-metadata-file dunnart_metadata.tsv \ 
---output-dir analysis/visualisations/summary_table \ 
+qiime feature-table summarize \
+--i-table analysis/dada2out/table.qza \
+--m-metadata-file dunnart_metadata.tsv \
+--output-dir analysis/visualisations/summary_table \
 --verbose 
 ```
 
@@ -293,7 +302,7 @@ Copy `analysis/visualisations/summary_table/summary.qzv` to your local computer 
 
 :::::::::::::::: solution
 
-[Click to view the **`summary.qzv`** file in QIIME 2 View](https://view.qiime2.org/visualization/?type=html&src=https%3A%2F%2Fdl.dropboxusercontent.com%2Fscl%2Ffi%2Fhkvk2yqpnm4w9oy64maf3%2F16s_table.qzv%3Frlkey%3Dtm368u59rexzgdwpm9m6l11l1%26dl%3D1).
+[Click to view the **`summary.qzv`** file in QIIME 2 View](https://view.qiime2.org/visualization/?src=https://www.dropbox.com/scl/fo/romu76hw5alep6qj4xfws/ADpnQOqVK-JD1zIkLejSfmY/summary_table/summary.qzv?rlkey=z0rtnozon2hlic4ba6i30c301).
 
 
 Make sure to switch between the "Overview" and "Feature Detail" tabs in the top left hand corner.  
@@ -324,7 +333,7 @@ Copy `analysis/visualisations/16s_representative_seqs.qzv` to your local compute
 
 :::::::::::::::: solution
 
-[Click to view the **`16s_representative_seqs.qzv`** file in QIIME 2 View](https://view.qiime2.org/visualization/?type=html&src=https%3A%2F%2Fdl.dropboxusercontent.com%2Fscl%2Ffi%2F2uesky0zntkapxhlr58gu%2F16s_representative_seqs.qzv%3Frlkey%3Dakmmi05wpcwommjuytgub2grk%26dl%3D1).
+[Click to view the **`16s_representative_seqs.qzv`** file in QIIME 2 View](https://view.qiime2.org/visualization/?src=https://www.dropbox.com/scl/fo/romu76hw5alep6qj4xfws/AHIIyoQHzEzPyoEXzjBVxBc/16s_representative_seqs.qzv?rlkey=z0rtnozon2hlic4ba6i30c301).
 
 
 :::::::::::::::::::::::::

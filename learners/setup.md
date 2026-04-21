@@ -29,8 +29,7 @@ At the end of this introductory workshop, you will:
 
 
 ## Slides and workshop instructions
-Click <a href="../media/*.pdf" type="application/pdf" target="_blank">here</a> for slides presented during this workshop.
-Click <a href="../*.pdf" type="application/pdf" target="_blank">here</a> for a printer friendly PDF version of this workshop.
+Click <a href="./files/QIIME2_workshop_MelbBioinformatics_April2026.pdf" type="application/pdf" target="_blank">here</a> for slides presented during this workshop.
 
 
 
@@ -118,7 +117,7 @@ Data for this workshop is stored in a central location (`/mnt/shared_data/`) on 
 
 ```bash
 cd
-ln -s /mnt/shared_data/raw_data raw_data
+mkdir raw_data; cp -rs /mnt/shared_data/raw_data/* raw_data 
 ln -s /mnt/shared_data/dunnart_metadata.tsv dunnart_metadata.tsv
 ln -s /mnt/shared_data/silva_138.2_16s_v4_classifier.qza silva_138.2_16s_v4_classifier.qza
 ```

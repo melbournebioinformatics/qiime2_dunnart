@@ -22,7 +22,7 @@ exercises: 2
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 
-## Section 5: Exporting data for further analysis in R
+## Exporting data for further analysis in R
 
 You need to export your ASV table, taxonomy table, and tree file for analyses in R. Many file formats can be accepted.
 
