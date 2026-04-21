@@ -302,7 +302,7 @@ Copy `analysis/visualisations/summary_table/summary.qzv` to your local computer 
 
 :::::::::::::::: solution
 
-[Click to view the **`summary.qzv`** file in QIIME 2 View](https://view.qiime2.org/visualization/?type=html&src=https%3A%2F%2Fdl.dropboxusercontent.com%2Fscl%2Ffi%2Fhkvk2yqpnm4w9oy64maf3%2F16s_table.qzv%3Frlkey%3Dtm368u59rexzgdwpm9m6l11l1%26dl%3D1).
+[Click to view the **`summary.qzv`** file in QIIME 2 View](https://view.qiime2.org/visualization/?src=https://www.dropbox.com/scl/fi/pg4hoabij57p2c7c0336u/summary.qzv?rlkey=inmh6c04mifp2q62wlbzw7bry).
 
 
 Make sure to switch between the "Overview" and "Feature Detail" tabs in the top left hand corner.  
@@ -333,7 +333,7 @@ Copy `analysis/visualisations/16s_representative_seqs.qzv` to your local compute
 
 :::::::::::::::: solution
 
-[Click to view the **`16s_representative_seqs.qzv`** file in QIIME 2 View](https://view.qiime2.org/visualization/?type=html&src=https%3A%2F%2Fdl.dropboxusercontent.com%2Fscl%2Ffi%2F2uesky0zntkapxhlr58gu%2F16s_representative_seqs.qzv%3Frlkey%3Dakmmi05wpcwommjuytgub2grk%26dl%3D1).
+[Click to view the **`16s_representative_seqs.qzv`** file in QIIME 2 View](https://view.qiime2.org/visualization/?src=https://www.dropbox.com/scl/fi/1rpg5hfgzbpmr897q8q9h/16s_representative_seqs.qzv?rlkey=8hbtqii26mf0c0adsn6m15qtx).
 
 
 :::::::::::::::::::::::::

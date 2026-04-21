@@ -97,7 +97,7 @@ Copy `analysis/visualisations/taxonomy.qzv` to your local computer and view in Q
 
 :::::::::::::::: solution
 
-[Click to view the **`taxonomy.qzv`** file in QIIME 2 View](https://view.qiime2.org/visualization/?type=html&src=https%3A%2F%2Fdl.dropboxusercontent.com%2Fscl%2Ffi%2Fpl5fz8bfv3iraqe7w3ryt%2Ftaxonomy.qzv%3Frlkey%3Dbnury3ua0w002sozo0eudklv7%26dl%3D1).
+[Click to view the **`taxonomy.qzv`** file in QIIME 2 View](https://view.qiime2.org/visualization/?src=https://www.dropbox.com/scl/fi/85yry9kt88fd145cgg55c/taxonomy.qzv?rlkey=etm09ph3h5wtyg3c247jbx383).
 
 :::::::::::::::::::::::::
 :::::::::::::::::::::::::::::::::::::::::::::::    
@@ -120,11 +120,11 @@ qiime taxa filter-table \
 ```
 
 ```bash
-qiime feature-table summarize \ 
---i-table analysis/taxonomy/16s_table_filtered.qza \ 
---m-metadata-file dunnart_metadata.tsv \ 
---output-dir analysis/visualisations/summary_table_filtered \ 
---verbose 
+qiime feature-table summarize \
+--i-table analysis/taxonomy/16s_table_filtered.qza \
+--m-metadata-file dunnart_metadata.tsv \
+--output-dir analysis/visualisations/summary_table_filtered \
+--verbose
 ```
 
 
