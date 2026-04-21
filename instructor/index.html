@@ -439,10 +439,8 @@ microbiota of the fat-tailed dunnart?</em>
 </li>
 </ul></section><section><h2 class="section-heading" id="slides-and-workshop-instructions">Slides and workshop instructions<a class="anchor" aria-label="anchor" href="#slides-and-workshop-instructions"></a></h2>
 <hr class="half-width"><p>Click
-<a href="../../media/*.pdf" type="application/pdf" target="_blank">here</a>
-for slides presented during this workshop. Click
-<a href="../../*.pdf" type="application/pdf" target="_blank">here</a> for a
-printer friendly PDF version of this workshop.</p>
+<a href=".././files/QIIME2_workshop_MelbBioinformatics_April2026.pdf" type="application/pdf" target="_blank">here</a>
+for slides presented during this workshop.</p>
 </section><section><h2 class="section-heading" id="data">Data<a class="anchor" aria-label="anchor" href="#data"></a></h2>
 <hr class="half-width"><p>Data from the Walter and Eliza Hall Institute (WEHI) came as
 paired-end, demultiplexed (.fastq) files with primers and overhang
@@ -491,7 +489,7 @@ to view files in QIIME2 View.</p>
   Windows
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>Use PuTTY</p>
 </div>
@@ -505,7 +503,7 @@ to view files in QIIME2 View.</p>
   MacOS
   </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p>Use Terminal.app</p>
 </div>
@@ -519,7 +517,7 @@ to view files in QIIME2 View.</p>
   Linux
   </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
 <div class="accordion-body">
 <p>Use Terminal</p>
 </div>
@@ -564,7 +562,7 @@ files needed in the <code>shared_data</code> folder.</p>
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
 <pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" tabindex="-1" aria-label="code-block-2-1"></a><span class="bu">cd</span></span>
-<span id="cb2-2"><a href="#cb2-2" tabindex="-1" aria-label="code-block-2-2"></a><span class="fu">ln</span> <span class="at">-s</span> /mnt/shared_data/raw_data raw_data</span>
+<span id="cb2-2"><a href="#cb2-2" tabindex="-1" aria-label="code-block-2-2"></a><span class="fu">mkdir</span> raw_data<span class="kw">;</span> <span class="fu">cp</span> <span class="at">-rs</span> /mnt/shared_data/raw_data/<span class="pp">*</span> raw_data </span>
 <span id="cb2-3"><a href="#cb2-3" tabindex="-1" aria-label="code-block-2-3"></a><span class="fu">ln</span> <span class="at">-s</span> /mnt/shared_data/dunnart_metadata.tsv dunnart_metadata.tsv</span>
 <span id="cb2-4"><a href="#cb2-4" tabindex="-1" aria-label="code-block-2-4"></a><span class="fu">ln</span> <span class="at">-s</span> /mnt/shared_data/silva_138.2_16s_v4_classifier.qza silva_138.2_16s_v4_classifier.qza</span></code></pre>
 </div>
