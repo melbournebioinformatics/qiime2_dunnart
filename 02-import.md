@@ -256,6 +256,13 @@ A [metadata file](https://use.qiime2.org/en/stable/references/metadata.html) is 
 
 :::
 
+::: caution
+
+#### STOP - workshop participants only
+
+Due to time limitations in a workshop setting, please do NOT run the commands below. You will need to access pre-computed files that this command generates by running the following: `cd; mkdir analysis/dada2out; cp /mnt/shared_data/pre_computed/dada2out/* analysis/dada2out`. If you have accidentally run the command below, `ctrl-c` will terminate it.
+
+:::
 
 
 
@@ -265,7 +272,6 @@ qiime metadata tabulate \
 --o-visualization analysis/visualisations/16s_denoising_stats.qzv \
 --verbose
 ```
-
 
 
 
