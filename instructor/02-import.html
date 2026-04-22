@@ -624,7 +624,7 @@ your local computer and view in <a href="https://view.qiime2.org" class="externa
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p><a href="https://view.qiime2.org/visualization/?src=https://www.dropbox.com/scl/fo/romu76hw5alep6qj4xfws/AAF9YHZ2oAZQ48Kl-k1Jvyo/trimmed_sequences.qzv?rlkey=z0rtnozon2hlic4ba6i30c301" class="external-link">Click
 to view the <strong><code>trimmed_sequences.qzv</code></strong> file in
@@ -661,18 +661,20 @@ Pseudo-pooling improves sensitivity to shared low-abundance ASVs across
 samples while remaining computationally efficient. This is better than
 the default of ‘independent’ (where samples are denoised independently)
 when you expect samples in the run to have similar ASVs overall.</p>
-<div id="workshop-participants-only" class="callout caution">
+<div id="stop---workshop-participants-only" class="callout caution">
 <div class="callout-square">
 <i class="callout-icon" data-feather="alert-triangle"></i>
 </div>
 <span class="callout-header">Caution</span>
-<div id="workshop-participants-only" class="callout-inner">
-<h3 class="callout-title">Workshop participants only</h3>
+<div id="stop---workshop-participants-only" class="callout-inner">
+<h3 class="callout-title">STOP - workshop participants only</h3>
 <div class="callout-content">
-<p>Due to computational limitations in a workshop setting, this command
-will be run staggered (by co-ordinating with other users on the Nectar
-Instance you are logged in to), with no more than two users per Instance
-running the command at the same time.</p>
+<p>Due to time limitations in a workshop setting, please do NOT run the
+commands below. You will need to access pre-computed files that this
+command generates by running the following:
+<code>cd; mkdir analysis/dada2out; cp /mnt/shared_data/pre_computed/dada2out/* analysis/dada2out</code>.
+If you have accidentally run the command below, <code>ctrl-c</code> will
+terminate it.</p>
 </div>
 </div>
 </div>
@@ -712,7 +714,7 @@ success.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <p>Change this part of the command from:</p>
 <div class="codewrapper sourceCode" id="cb7">
@@ -772,23 +774,6 @@ may need to be excluded later.</p></li>
 </ol></div>
 </div>
 </div>
-<div id="stop---workshop-participants-only" class="callout caution">
-<div class="callout-square">
-<i class="callout-icon" data-feather="alert-triangle"></i>
-</div>
-<span class="callout-header">Caution</span>
-<div id="stop---workshop-participants-only" class="callout-inner">
-<h3 class="callout-title">STOP - workshop participants only</h3>
-<div class="callout-content">
-<p>Due to time limitations in a workshop setting, please do NOT run the
-commands below. You will need to access pre-computed files that this
-command generates by running the following:
-<code>cd; mkdir analysis/dada2out; cp /mnt/shared_data/pre_computed/dada2out/* analysis/dada2out</code>.
-If you have accidentally run the command below, <code>ctrl-c</code> will
-terminate it.</p>
-</div>
-</div>
-</div>
 <div class="codewrapper sourceCode" id="cb9">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
@@ -815,7 +800,7 @@ your local computer and view in QIIME 2 View (q2view).</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3"> Show me the solution </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
 <div class="accordion-body">
 <p><a href="https://view.qiime2.org/visualization/?src=https://www.dropbox.com/scl/fo/romu76hw5alep6qj4xfws/AAsCKOqmM-t2RhSr39K7E_g/16s_denoising_stats.qzv?rlkey=z0rtnozon2hlic4ba6i30c301" class="external-link">Click
 to view the <strong><code>16s_denoising_stats.qzv</code></strong> file
@@ -852,7 +837,7 @@ to your local computer and view in QIIME 2 View (q2view).</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
   <h4 class="accordion-header" id="headingSolution4"> Show me the solution </h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
 <div class="accordion-body">
 <p><a href="https://view.qiime2.org/visualization/?src=https://www.dropbox.com/scl/fo/romu76hw5alep6qj4xfws/ADpnQOqVK-JD1zIkLejSfmY/summary_table/summary.qzv?rlkey=z0rtnozon2hlic4ba6i30c301" class="external-link">Click
 to view the <strong><code>summary.qzv</code></strong> file in QIIME 2
@@ -890,7 +875,7 @@ to your local computer and view in QIIME 2 View (q2view).</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution5" aria-expanded="false" aria-controls="collapseSolution5">
   <h4 class="accordion-header" id="headingSolution5"> Show me the solution </h4>
 </button>
-<div id="collapseSolution5" class="accordion-collapse collapse" data-bs-parent="#accordionSolution5" aria-labelledby="headingSolution5">
+<div id="collapseSolution5" class="accordion-collapse collapse" aria-labelledby="headingSolution5" data-bs-parent="#accordionSolution5">
 <div class="accordion-body">
 <p><a href="https://view.qiime2.org/visualization/?src=https://www.dropbox.com/scl/fo/romu76hw5alep6qj4xfws/AHIIyoQHzEzPyoEXzjBVxBc/16s_representative_seqs.qzv?rlkey=z0rtnozon2hlic4ba6i30c301" class="external-link">Click
 to view the <strong><code>16s_representative_seqs.qzv</code></strong>
