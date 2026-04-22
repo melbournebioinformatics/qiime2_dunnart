@@ -183,9 +183,9 @@ In the following command, a pooling method of 'pseudo' is selected. Pseudo-pooli
 
 ::: caution
 
-#### Workshop participants only
+#### STOP - workshop participants only
 
-Due to computational limitations in a workshop setting, this command will be run staggered (by co-ordinating with other users on the Nectar Instance you are logged in to), with no more than two users per Instance running the command at the same time.
+Due to time limitations in a workshop setting, please do NOT run the commands below. You will need to access pre-computed files that this command generates by running the following: `cd; mkdir analysis/dada2out; cp /mnt/shared_data/pre_computed/dada2out/* analysis/dada2out`. If you have accidentally run the command below, `ctrl-c` will terminate it.
 
 :::
 
@@ -258,11 +258,7 @@ A [metadata file](https://use.qiime2.org/en/stable/references/metadata.html) is 
 
 ::: caution
 
-#### STOP - workshop participants only
 
-Due to time limitations in a workshop setting, please do NOT run the commands below. You will need to access pre-computed files that this command generates by running the following: `cd; mkdir analysis/dada2out; cp /mnt/shared_data/pre_computed/dada2out/* analysis/dada2out`. If you have accidentally run the command below, `ctrl-c` will terminate it.
-
-:::
 
 
 ```bash
