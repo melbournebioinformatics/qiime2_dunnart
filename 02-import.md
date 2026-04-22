@@ -265,7 +265,6 @@ Due to time limitations in a workshop setting, please do NOT run the commands be
 :::
 
 
-
 ```bash
 qiime metadata tabulate \
 --m-input-file analysis/dada2out/denoising_stats.qza \
