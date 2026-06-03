@@ -22,9 +22,7 @@ exercises: 2
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 
-## Basic visualisations and statistics
-
-### ASV relative abundance bar charts
+## ASV relative abundance bar charts
 Create bar charts to compare the relative abundance of ASVs across samples.
 
 

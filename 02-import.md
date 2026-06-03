@@ -24,9 +24,8 @@ exercises: 2
 
 
 
-## Importing, cleaning and quality control of the data
 
-### Import data
+## Import data
 
 These [samples](./index.html#data) were sequenced on a single Illumina NextSeq run at the Walter and Eliza Hall Institute (WEHI), Melbourne, Australia. Data from WEHI came as paired-end, demultiplexed, unzipped *.fastq files with adapters still attached. Following the [QIIME2 importing tutorial](https://amplicon-docs.qiime2.org/en/stable/how-to-guides/how-to-import.html), this is the Casava One Eight format. The files have been renamed to satisfy the Casava format as SampleID_FWDXX-REVXX_L001_R[1 or 2]_001.fastq e.g. CTRLA_Fwd04-Rev25_L001_R1_001.fastq.gz. The files were then zipped (.gzip).
 
@@ -65,7 +64,7 @@ qiime tools import \
 ```
 
 
-### Remove primers
+## Remove primers
 
 
 ::: callout
@@ -110,7 +109,7 @@ The error rate, `--p-error-rate`, and overlap, `--p-overlap`, parameters will li
 
 :::
 
-### Create and interpret sequence quality data
+## Create and interpret sequence quality data
 
 Create a viewable summary file so the data quality can be checked. Viewing the quality plots generated here helps determine settings for dada2, which we will run next.
 
@@ -168,7 +167,7 @@ Make sure to switch between the "Overview" and "Interactive Quality Plot" tabs i
 
 
 
-###  Denoising the data
+##  Denoising the data
 
 ::: callout
 
@@ -237,7 +236,7 @@ to:
 
 
 
-### Generate summary files
+## Generate summary files
 
 A [metadata file](https://use.qiime2.org/en/stable/references/metadata.html) is required which provides the key to gaining biological insight from your data. The file <fn>dunnart_metadata.tsv</fn> is provided in the home directory of your Nectar instance. This spreadsheet has already been verified using the plugin for Google Sheets, [keemei](https://keemei.qiime2.org/).  
 

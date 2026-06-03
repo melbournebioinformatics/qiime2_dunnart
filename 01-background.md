@@ -22,11 +22,11 @@ exercises: 2
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Background
+
 
 What is the influence of captivity on gut microbiota of the fat-tailed dunnart?
 
-### The Players
+## The Players
 
 ![dunnart](./files/dunnart.jpg)
 (Photo credit: Emily Scicluna)
@@ -35,10 +35,10 @@ What is the influence of captivity on gut microbiota of the fat-tailed dunnart?
 * Fat-tailed dunnart [*Sminthopsis crassicaudata*](https://en.wikipedia.org/wiki/Fat-tailed_dunnart) - a species of mouse-like marsupial in the family Dasyuridae, which includes quolls, the Tasmanian devil, and the extinct Thylacine. There are 10 samples in this dataset (*This data is a subset from a larger experiment*); 5 faecal samples each from captive and wild fat-tailed dunnarts.  
    
 
-### The Study
+## The Study
 Indigenous microbial communities (microbiota) play critical roles in host health. Small marsupials, such as the fat-tailed dunnart, are increasingly used as model systems to understand how environmental conditions shape host-associated microbiomes. Transitions between wild and captive environments can substantially alter diet, behaviour, and microbial exposure, providing a natural framework to investigate microbiome restructuring and its potential consequences for host physiology and health. Here, we characterise the gut microbiome of wild and captive fat-tailed dunnarts to assess how captivity influences microbial community composition. This dataset represents a subset of a larger experimental framework examining microbiome-mediated effects on host function and conservation outcomes.
 
-### QIIME 2 Analysis platform
+## QIIME 2 Analysis platform
 
 ::: caution
 

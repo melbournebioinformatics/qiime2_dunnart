@@ -21,8 +21,6 @@ exercises: 2
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 
-## Build a phylogenetic tree
-
 The next step does the following:
 
 1. Perform an alignment on the representative sequences.
