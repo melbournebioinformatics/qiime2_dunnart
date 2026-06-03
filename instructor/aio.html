@@ -376,7 +376,7 @@
         
 <section id="aio-01-background"><p>Content from <a href="01-background.html">Background</a></p>
 <hr>
-<p>Last updated on 2026-06-02 |
+<p>Last updated on 2026-06-03 |
 
         <a href="https://example.com/template-source/lesson-example/edit/main/episodes/01-background.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 12 minutes</p>
@@ -418,14 +418,11 @@ copies.</li>
 </div>
 </div>
 </div>
-<section><h2 class="section-heading" id="background">Background<a class="anchor" aria-label="anchor" href="#background"></a>
-</h2>
-<hr class="half-width">
 <p>What is the influence of captivity on gut microbiota of the
 fat-tailed dunnart?</p>
-<div class="section level3">
-<h3 id="the-players">The Players<a class="anchor" aria-label="anchor" href="#the-players"></a>
-</h3>
+<section><h2 class="section-heading" id="the-players">The Players<a class="anchor" aria-label="anchor" href="#the-players"></a>
+</h2>
+<hr class="half-width">
 <p><img src=".././files/dunnart.jpg" alt="dunnart" class="figure"> (Photo credit: Emily
 Scicluna)</p>
 <ul>
@@ -435,11 +432,9 @@ Dasyuridae, which includes quolls, the Tasmanian devil, and the extinct
 Thylacine. There are 10 samples in this dataset (<em>This data is a
 subset from a larger experiment</em>); 5 faecal samples each from
 captive and wild fat-tailed dunnarts.</li>
-</ul>
-</div>
-<div class="section level3">
-<h3 id="the-study">The Study<a class="anchor" aria-label="anchor" href="#the-study"></a>
-</h3>
+</ul></section><section><h2 class="section-heading" id="the-study">The Study<a class="anchor" aria-label="anchor" href="#the-study"></a>
+</h2>
+<hr class="half-width">
 <p>Indigenous microbial communities (microbiota) play critical roles in
 host health. Small marsupials, such as the fat-tailed dunnart, are
 increasingly used as model systems to understand how environmental
@@ -452,10 +447,9 @@ and captive fat-tailed dunnarts to assess how captivity influences
 microbial community composition. This dataset represents a subset of a
 larger experimental framework examining microbiome-mediated effects on
 host function and conservation outcomes.</p>
-</div>
-<div class="section level3">
-<h3 id="qiime-2-analysis-platform">QIIME 2 Analysis platform<a class="anchor" aria-label="anchor" href="#qiime-2-analysis-platform"></a>
-</h3>
+</section><section><h2 class="section-heading" id="qiime-2-analysis-platform">QIIME 2 Analysis platform<a class="anchor" aria-label="anchor" href="#qiime-2-analysis-platform"></a>
+</h2>
+<hr class="half-width">
 <div id="caution1" class="callout caution">
 <div class="callout-square">
 <i class="callout-icon" data-feather="alert-triangle"></i>
@@ -542,10 +536,9 @@ Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
 </div>
-</div>
 </section></section><section id="aio-02-import"><p>Content from <a href="02-import.html">Importing, cleaning and quality control of the data</a></p>
 <hr>
-<p>Last updated on 2026-06-02 |
+<p>Last updated on 2026-06-03 |
 
         <a href="https://example.com/template-source/lesson-example/edit/main/episodes/02-import.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 12 minutes</p>
@@ -586,12 +579,9 @@ truncation lengths to balance read quality and merge overlap.</li>
 </div>
 </div>
 </div>
-<section><h2 class="section-heading" id="importing-cleaning-and-quality-control-of-the-data">Importing, cleaning and quality control of the data<a class="anchor" aria-label="anchor" href="#importing-cleaning-and-quality-control-of-the-data"></a>
+<section><h2 class="section-heading" id="import-data">Import data<a class="anchor" aria-label="anchor" href="#import-data"></a>
 </h2>
 <hr class="half-width">
-<div class="section level3">
-<h3 id="import-data">Import data<a class="anchor" aria-label="anchor" href="#import-data"></a>
-</h3>
 <p>These <a href="./index.html#data">samples</a> were sequenced on a
 single Illumina NextSeq run at the Walter and Eliza Hall Institute
 (WEHI), Melbourne, Australia. Data from WEHI came as paired-end,
@@ -656,10 +646,9 @@ sequences.</p>
 <span id="cb2-4"><a href="#cb2-4" tabindex="-1" aria-label="code-block-2-4"></a>--input-format CasavaOneEightSingleLanePerSampleDirFmt <span class="dt">\</span></span>
 <span id="cb2-5"><a href="#cb2-5" tabindex="-1" aria-label="code-block-2-5"></a>--output-path analysis/seqs/combined.qza</span></code></pre>
 </div>
-</div>
-<div class="section level3">
-<h3 id="remove-primers">Remove primers<a class="anchor" aria-label="anchor" href="#remove-primers"></a>
-</h3>
+</section><section><h2 class="section-heading" id="remove-primers">Remove primers<a class="anchor" aria-label="anchor" href="#remove-primers"></a>
+</h2>
+<hr class="half-width">
 <div id="callout2" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
@@ -746,10 +735,9 @@ values and see what happens.</p>
 </div>
 </div>
 </div>
-</div>
-<div class="section level3">
-<h3 id="create-and-interpret-sequence-quality-data">Create and interpret sequence quality data<a class="anchor" aria-label="anchor" href="#create-and-interpret-sequence-quality-data"></a>
-</h3>
+</section><section><h2 class="section-heading" id="create-and-interpret-sequence-quality-data">Create and interpret sequence quality data<a class="anchor" aria-label="anchor" href="#create-and-interpret-sequence-quality-data"></a>
+</h2>
+<hr class="half-width">
 <p>Create a viewable summary file so the data quality can be checked.
 Viewing the quality plots generated here helps determine settings for
 dada2, which we will run next.</p>
@@ -841,7 +829,7 @@ your local computer and view in <a href="https://view.qiime2.org" class="externa
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p><a href="https://view.qiime2.org/visualization/?src=https://www.dropbox.com/scl/fo/romu76hw5alep6qj4xfws/AAF9YHZ2oAZQ48Kl-k1Jvyo/trimmed_sequences.qzv?rlkey=z0rtnozon2hlic4ba6i30c301" class="external-link">Click
 to view the <strong><code>trimmed_sequences.qzv</code></strong> file in
@@ -857,10 +845,9 @@ corresponding position.</p>
 </div>
 </div>
 </div>
-</div>
-<div class="section level3">
-<h3 id="denoising-the-data">Denoising the data<a class="anchor" aria-label="anchor" href="#denoising-the-data"></a>
-</h3>
+</section><section><h2 class="section-heading" id="denoising-the-data">Denoising the data<a class="anchor" aria-label="anchor" href="#denoising-the-data"></a>
+</h2>
+<hr class="half-width">
 <div id="callout3" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
@@ -933,7 +920,7 @@ success.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <p>Change this part of the command from:</p>
 <div class="codewrapper sourceCode" id="cb7">
@@ -957,10 +944,9 @@ values.</em></p>
 </div>
 </div>
 </div>
-</div>
-<div class="section level3">
-<h3 id="generate-summary-files">Generate summary files<a class="anchor" aria-label="anchor" href="#generate-summary-files"></a>
-</h3>
+</section><section><h2 class="section-heading" id="generate-summary-files">Generate summary files<a class="anchor" aria-label="anchor" href="#generate-summary-files"></a>
+</h2>
+<hr class="half-width">
 <p>A <a href="https://use.qiime2.org/en/stable/references/metadata.html" class="external-link">metadata
 file</a> is required which provides the key to gaining biological
 insight from your data. The file <fn>dunnart_metadata.tsv</fn> is
@@ -1022,7 +1008,7 @@ your local computer and view in QIIME 2 View (q2view).</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3"> Show me the solution </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
 <div class="accordion-body">
 <p><a href="https://view.qiime2.org/visualization/?src=https://www.dropbox.com/scl/fo/romu76hw5alep6qj4xfws/AAsCKOqmM-t2RhSr39K7E_g/16s_denoising_stats.qzv?rlkey=z0rtnozon2hlic4ba6i30c301" class="external-link">Click
 to view the <strong><code>16s_denoising_stats.qzv</code></strong> file
@@ -1059,7 +1045,7 @@ to your local computer and view in QIIME 2 View (q2view).</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
   <h4 class="accordion-header" id="headingSolution4"> Show me the solution </h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
 <div class="accordion-body">
 <p><a href="https://view.qiime2.org/visualization/?src=https://www.dropbox.com/scl/fo/romu76hw5alep6qj4xfws/ADpnQOqVK-JD1zIkLejSfmY/summary_table/summary.qzv?rlkey=z0rtnozon2hlic4ba6i30c301" class="external-link">Click
 to view the <strong><code>summary.qzv</code></strong> file in QIIME 2
@@ -1097,7 +1083,7 @@ to your local computer and view in QIIME 2 View (q2view).</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution5" aria-expanded="false" aria-controls="collapseSolution5">
   <h4 class="accordion-header" id="headingSolution5"> Show me the solution </h4>
 </button>
-<div id="collapseSolution5" class="accordion-collapse collapse" data-bs-parent="#accordionSolution5" aria-labelledby="headingSolution5">
+<div id="collapseSolution5" class="accordion-collapse collapse" aria-labelledby="headingSolution5" data-bs-parent="#accordionSolution5">
 <div class="accordion-body">
 <p><a href="https://view.qiime2.org/visualization/?src=https://www.dropbox.com/scl/fo/romu76hw5alep6qj4xfws/AHIIyoQHzEzPyoEXzjBVxBc/16s_representative_seqs.qzv?rlkey=z0rtnozon2hlic4ba6i30c301" class="external-link">Click
 to view the <strong><code>16s_representative_seqs.qzv</code></strong>
@@ -1131,10 +1117,9 @@ and monitor read retention in denoising_stats outputs.</li>
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
-</div>
 </section></section><section id="aio-03-taxonomy"><p>Content from <a href="03-taxonomy.html">Taxonomic Analysis</a></p>
 <hr>
-<p>Last updated on 2026-06-02 |
+<p>Last updated on 2026-06-03 |
 
         <a href="https://example.com/template-source/lesson-example/edit/main/episodes/03-taxonomy.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 12 minutes</p>
@@ -1173,12 +1158,9 @@ from the feature table.</li>
 </div>
 </div>
 </div>
-<section><h2 class="section-heading" id="taxonomic-analysis">Taxonomic Analysis<a class="anchor" aria-label="anchor" href="#taxonomic-analysis"></a>
+<section><h2 class="section-heading" id="assign-taxonomy">Assign taxonomy<a class="anchor" aria-label="anchor" href="#assign-taxonomy"></a>
 </h2>
 <hr class="half-width">
-<div class="section level3">
-<h3 id="assign-taxonomy">Assign taxonomy<a class="anchor" aria-label="anchor" href="#assign-taxonomy"></a>
-</h3>
 <p>Here we will classify each identical read or <em>Amplicon Sequence
 Variant (ASV)</em> to the highest resolution based on a database. Common
 databases for bacteria datasets are <a href="https://www.arb-silva.de/" class="external-link">SILVA</a>, <a href="http://rdp.cme.msu.edu/" class="external-link">Ribosomal Database Project</a>*, or <a href="https://gtdb.ecogenomic.org/" class="external-link">Genome Taxonomy Database</a>. See <a href="https://www.frontiersin.org/articles/10.3389/fevo.2020.00248/full" class="external-link">Porter
@@ -1201,7 +1183,7 @@ cores</p>
 <button class="accordion-button spoiler-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSpoiler1" aria-expanded="false" aria-controls="collapseSpoiler1">
   <h3 class="accordion-header" id="headingSpoiler1">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="eye"></i></div> *A Note on the Ribosomal Data Project </h3>
 </button>
-<div id="collapseSpoiler1" class="accordion-collapse collapse" aria-labelledby="headingSpoiler1" data-bs-parent="#accordionSpoiler1">
+<div id="collapseSpoiler1" class="accordion-collapse collapse" data-bs-parent="#accordionSpoiler1" aria-labelledby="headingSpoiler1">
 <div class="accordion-body">
 <p>As of the time of writing, the Ribosomal Data Project website is no
 longer available. You can find a standalone version of the RDP
@@ -1252,10 +1234,9 @@ so always check there was well.</p>
 </div>
 </div>
 </div>
-</div>
-<div class="section level3">
-<h3 id="generate-a-viewable-summary-file-of-the-taxonomic-assignments-">Generate a viewable summary file of the taxonomic assignments.<a class="anchor" aria-label="anchor" href="#generate-a-viewable-summary-file-of-the-taxonomic-assignments-"></a>
-</h3>
+</section><section><h2 class="section-heading" id="generate-a-viewable-summary-file-of-the-taxonomic-assignments-">Generate a viewable summary file of the taxonomic assignments.<a class="anchor" aria-label="anchor" href="#generate-a-viewable-summary-file-of-the-taxonomic-assignments-"></a>
+</h2>
+<hr class="half-width">
 <div class="codewrapper sourceCode" id="cb2">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
@@ -1282,7 +1263,7 @@ computer and view in QIIME 2 View (q2view).</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p><a href="https://view.qiime2.org/visualization/?src=https://www.dropbox.com/scl/fo/romu76hw5alep6qj4xfws/AHM-SIH5EEGMxhpwz8vbpG8/taxonomy.qzv?rlkey=z0rtnozon2hlic4ba6i30c301" class="external-link">Click
 to view the <strong><code>taxonomy.qzv</code></strong> file in QIIME 2
@@ -1291,10 +1272,9 @@ View</a>.</p>
 </div>
 </div>
 </div>
-</div>
-<div class="section level3">
-<h3 id="filtering">Filtering<a class="anchor" aria-label="anchor" href="#filtering"></a>
-</h3>
+</section><section><h2 class="section-heading" id="filtering">Filtering<a class="anchor" aria-label="anchor" href="#filtering"></a>
+</h2>
+<hr class="half-width">
 <p>Filter out reads classified as mitochondria and chloroplast.
 Unassigned ASVs are retained. Generate a viewable summary file of the
 new table to see the effect of filtering.</p>
@@ -1340,7 +1320,7 @@ to your local computer and view in QIIME 2 View (q2view).</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p><a href="https://view.qiime2.org/visualization/?src=https://www.dropbox.com/scl/fo/romu76hw5alep6qj4xfws/AFgPkLgEwPhYoS_BaZekjMw/summary_table_filtered/summary.qzv?rlkey=z0rtnozon2hlic4ba6i30c301" class="external-link">Click
 to view the <strong><code>summary.qzv</code></strong> file in QIIME 2
@@ -1373,10 +1353,9 @@ paradigm unless specific reasons exist.</li>
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
-</div>
 </section></section><section id="aio-04-phylogenetic-tree"><p>Content from <a href="04-phylogenetic-tree.html">Build a phylogenetic tree</a></p>
 <hr>
-<p>Last updated on 2026-06-02 |
+<p>Last updated on 2026-06-03 |
 
         <a href="https://example.com/template-source/lesson-example/edit/main/episodes/04-phylogenetic-tree.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 12 minutes</p>
@@ -1414,9 +1393,6 @@ UniFrac analyses.</li>
 </div>
 </div>
 </div>
-<section><h2 class="section-heading" id="build-a-phylogenetic-tree">Build a phylogenetic tree<a class="anchor" aria-label="anchor" href="#build-a-phylogenetic-tree"></a>
-</h2>
-<hr class="half-width">
 <p>The next step does the following:</p>
 <ol style="list-style-type: decimal">
 <li>Perform an alignment on the representative sequences.</li>
@@ -1467,14 +1443,9 @@ use.</li>
 </ul>
 </div>
 </div>
-</div>
-<!--
-Place links that you need to refer to multiple times across pages here. Delete
-any links that you are not going to use.
- -->
-</section></section><section id="aio-05-visualisation"><p>Content from <a href="05-visualisation.html">Basic visualisations and statistics</a></p>
+</div></section><section id="aio-05-visualisation"><p>Content from <a href="05-visualisation.html">Basic visualisations and statistics</a></p>
 <hr>
-<p>Last updated on 2026-06-02 |
+<p>Last updated on 2026-06-03 |
 
         <a href="https://example.com/template-source/lesson-example/edit/main/episodes/05-visualisation.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 12 minutes</p>
@@ -1517,12 +1488,9 @@ perform differential abundance testing (ANCOM‑BC2).</li>
 </div>
 </div>
 </div>
-<section><h2 class="section-heading" id="basic-visualisations-and-statistics">Basic visualisations and statistics<a class="anchor" aria-label="anchor" href="#basic-visualisations-and-statistics"></a>
+<section><h2 class="section-heading" id="asv-relative-abundance-bar-charts">ASV relative abundance bar charts<a class="anchor" aria-label="anchor" href="#asv-relative-abundance-bar-charts"></a>
 </h2>
 <hr class="half-width">
-<div class="section level3">
-<h3 id="asv-relative-abundance-bar-charts">ASV relative abundance bar charts<a class="anchor" aria-label="anchor" href="#asv-relative-abundance-bar-charts"></a>
-</h3>
 <p>Create bar charts to compare the relative abundance of ASVs across
 samples.</p>
 <div class="codewrapper sourceCode" id="cb1">
@@ -1565,7 +1533,6 @@ in the “Change Taxonomic Level” dropdown menu (Select Level 1, then
 Level 3, and then Level 5 for example).</p>
 <figure><img src=".././files/q2view_barplot_levels.png" alt="barplot1" class="figure mx-auto d-block"><div class="figcaption">barplot1</div>
 </figure>
-</div>
 </div>
 </div>
 </div>
@@ -1995,7 +1962,7 @@ any links that you are not going to use.
 </div>
 </section></section><section id="aio-06-exporting-data"><p>Content from <a href="06-exporting-data.html">Exporting data for further analysis in R</a></p>
 <hr>
-<p>Last updated on 2026-06-02 |
+<p>Last updated on 2026-06-03 |
 
         <a href="https://example.com/template-source/lesson-example/edit/main/episodes/06-exporting-data.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 12 minutes</p>
@@ -2035,9 +2002,6 @@ downstream merging.</li>
 </div>
 </div>
 </div>
-<section><h2 class="section-heading" id="exporting-data-for-further-analysis-in-r">Exporting data for further analysis in R<a class="anchor" aria-label="anchor" href="#exporting-data-for-further-analysis-in-r"></a>
-</h2>
-<hr class="half-width">
 <p>You need to export your ASV table, taxonomy table, and tree file for
 analyses in R. Many file formats can be accepted.</p>
 <p>Export unrooted tree as <code>.nwk</code> format as required for the
@@ -2105,14 +2069,9 @@ importing into phyloseq or other R packages.</li>
 </ul>
 </div>
 </div>
-</div>
-<!--
-Place links that you need to refer to multiple times across pages here. Delete
-any links that you are not going to use.
- -->
-</section></section><section id="aio-07-extra-info"><p>Content from <a href="07-extra-info.html">Extra Information</a></p>
+</div></section><section id="aio-07-extra-info"><p>Content from <a href="07-extra-info.html">Extra Information</a></p>
 <hr>
-<p>Last updated on 2026-06-02 |
+<p>Last updated on 2026-06-03 |
 
         <a href="https://example.com/template-source/lesson-example/edit/main/episodes/07-extra-info.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 12 minutes</p>
@@ -2150,9 +2109,6 @@ artefacts (e.g. poly‑G tails) and when to perform standalone cutadapt
 </div>
 </div>
 </div>
-<section><h2 class="section-heading" id="extra-information">Extra Information<a class="anchor" aria-label="anchor" href="#extra-information"></a>
-</h2>
-<hr class="half-width">
 <div id="stop" class="callout caution">
 <div class="callout-square">
 <i class="callout-icon" data-feather="alert-triangle"></i>
@@ -2167,10 +2123,10 @@ be covered in the workshop.</p>
 </div>
 </div>
 </div>
-<div class="section level3">
-<h3 id="train-silva-v138-classifier-for-16s18s-rrna-gene-marker-sequences-">Train SILVA v138 classifier for 16S/18S rRNA gene marker
+<section><h2 class="section-heading" id="train-silva-v138-classifier-for-16s18s-rrna-gene-marker-sequences-">Train SILVA v138 classifier for 16S/18S rRNA gene marker
 sequences.<a class="anchor" aria-label="anchor" href="#train-silva-v138-classifier-for-16s18s-rrna-gene-marker-sequences-"></a>
-</h3>
+</h2>
+<hr class="half-width">
 <p>The newest version of the <a href="https://www.arb-silva.de/" class="external-link">SILVA</a> database (v138) can be
 trained to classify marker gene sequences originating from the 16S/18S
 rRNA gene. Reference files <code>silva-138-99-seqs.qza</code> and
@@ -2223,7 +2179,6 @@ memory/CPU resources for large datasets.</li>
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
-</div>
 </section></section>
 </div>
     </main>
@@ -2274,8 +2229,8 @@ any links that you are not going to use.
   "url": "melbournebioinformatics.github.io/uom-varnish/instructor/aio.html",
   "identifier": "melbournebioinformatics.github.io/uom-varnish/instructor/aio.html",
   "dateCreated": "2026-04-02",
-  "dateModified": "2026-06-02",
-  "datePublished": "2026-06-02"
+  "dateModified": "2026-06-03",
+  "datePublished": "2026-06-03"
 }
 
   </script><script>
