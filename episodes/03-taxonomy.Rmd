@@ -22,9 +22,8 @@ exercises: 2
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 
-## Taxonomic Analysis
 
-### Assign taxonomy
+## Assign taxonomy
 Here we will classify each identical read or *Amplicon Sequence Variant (ASV)* to the highest resolution based on a database. Common databases for bacteria datasets are [SILVA](https://www.arb-silva.de/), [Ribosomal Database Project](http://rdp.cme.msu.edu/)*, or [Genome Taxonomy Database](https://gtdb.ecogenomic.org/). See [Porter and Hajibabaei, 2020](https://www.frontiersin.org/articles/10.3389/fevo.2020.00248/full) for a review of different classifiers for metabarcoding research. The classifier chosen is dependent upon:
 
 1. Previously published data in a field
@@ -71,7 +70,7 @@ This step often runs out of memory on full datasets. Some options are to change 
 :::
 
 
-### Generate a viewable summary file of the taxonomic assignments.
+## Generate a viewable summary file of the taxonomic assignments.
 
 
 ```bash
@@ -96,7 +95,7 @@ Copy `analysis/visualisations/taxonomy.qzv` to your local computer and view in Q
 :::::::::::::::::::::::::::::::::::::::::::::::    
 
 
-### Filtering
+## Filtering
 
 Filter out reads classified as mitochondria and chloroplast. Unassigned ASVs are retained. Generate a viewable summary file of the new table to see the effect of filtering.
 
